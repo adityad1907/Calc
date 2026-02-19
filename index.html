@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calc</title>
+
+    <link rel="shortcut icon" href="CALCLogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>
+        <img src="CALCLogo.jpg" height="40px">
+        Calculator (calc)
+    </h1>
+
+    <main class="main">
+        <div id="mainbox">
+            <input type="text" id="display" readonly>
+            <button class="bn" onclick="calculate()">=</button>
+            <button class="bn" onclick="appendToDisplay('/')">/</button>
+            <button class="bn" onclick="appendToDisplay('*')">*</button>
+            <button class="bn" onclick="clearDisplay()">C</button>
+            <button class="bn" onclick="appendToDisplay('7')">7</button>
+            <button class="bn" onclick="appendToDisplay('8')">8</button>
+            <button class="bn" onclick="appendToDisplay('9')">9</button>
+            <button class="bn" onclick="appendToDisplay('-')">-</button>
+            <button class="bn" onclick="appendToDisplay('4')">4</button>
+            <button class="bn" onclick="appendToDisplay('5')">5</button>
+            <button class="bn" onclick="appendToDisplay('6')">6</button>
+            <button class="bn" onclick="appendToDisplay('+')">+</button>
+            <button class="bn" onclick="appendToDisplay('1')">1</button>
+            <button class="bn" onclick="appendToDisplay('2')">2</button>
+            <button class="bn" onclick="appendToDisplay('3')">3</button>
+            <button class="bn" onclick="appendToDisplay('.')">.</button>
+            <button class="bn" onclick="appendToDisplay('0')">0</button>
+        </div>
+    </main>
+
+    <script src="logic.js"></script>
+</body>
+</html>

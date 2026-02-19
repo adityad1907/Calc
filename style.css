@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(0, 0%, 10%);
+}
+h1{
+    text-align-last: center;
+    text-shadow: 1px 1px 15px;
+    color: red;
+    border: 4px dotted red ;
+    border-radius: 15px;
+    margin: auto;
+    background-color: beige;
+}
+
+#mainbox{
+    width: 400px;
+    height: 600px;
+    background-color: hsla(0, 0%, 0%, 0.87);
+    box-shadow: 2px 2px 15px;
+    border-radius: 25px;
+    margin-top:35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+@keyframes slideup{
+    from{transform: translateY(300%);}
+}
+input{
+    width: 400px;
+    height: 75px;
+    background-color: hsla(0, 1%, 39%, 0.632);
+    border-radius: 25px;
+    overflow: scroll;
+    color:  rgb(50, 3, 94);
+    font-size: 200%;
+}
+input:hover{
+    background-color: hsla(0, 1%, 49%, 0.632);
+}
+.bn{
+    border-radius: 25px;
+    font-size: 150%;
+    text-align: center;
+    box-shadow: 2px 2px 15px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+    background-color: hsl(0, 0%, 25%);
+    color: rgb(50, 3, 94);
+    width: 70px;
+    height: 80px;
+    
+}
+.bn:hover{
+    animation-name: glow ;
+    animation-duration: 10000000s;
+    background-color: hsl(0, 0%, 35%);
+}
+@keyframes glow{
+    0%{box-shadow: 0px 0px 22px rgb(153, 129, 175)}
+
+}
+.bn:active{
+    background-color: hsl(0, 0%, 55%);
+}
+
